@@ -1,5 +1,5 @@
 <template>
-  <div id="tree-simple" style="height: 100vh; margin: 5px; width: 100%;" />
+  <div id="tree-simple" />
 </template>
 
 <script>
@@ -9,12 +9,6 @@ import "treant-js/examples/basic-example/basic-example.css";
 import Raphael from "raphael";
 
 export default {
-  data() {
-    return {
-      treant: null,
-      chart_config: null,
-    };
-  },
   mounted() {
     window.Raphael = Raphael;
     let Treant = require("treant-js/Treant");
