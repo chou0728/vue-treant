@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <Treant />
+    <!-- <Treant /> -->
+    <PureTree />
   </div>
 </template>
 
 <script>
-import Treant from './components/Treant.vue'
+// import Treant from './components/Treant.vue';
+import PureTree from './components/PureTree.vue';
 
 export default {
   name: 'App',
   components: {
-    Treant
-  }
-}
+    // Treant,
+    PureTree,
+  },
+};
 </script>
